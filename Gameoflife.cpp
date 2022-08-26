@@ -38,7 +38,7 @@ main ()
 {
   initscr ();			//Initialize Screen 
   cbreak ();			//Set cbreak, aka non-buffered 
-  input noecho ();		//Don't echo input keypad 
+  noecho ();		//Don't echo input keypad
   (stdscr, TRUE);		//Gives keyboard magic (e.g. KEY_LEFT) 
   start_color ();		//Color!!!  
   init_pair (2, COLOR_BLACK, COLOR_BLUE);	//Set color scheme 
